@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>BorrowPlot</title>
+</head>
+  <body>
+    <div class="background">
+      <div class="blur"></div>
+    </div>
+    <section id ="index">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
+        <a class="navbar-brand" >
+            <img class="logo" src="images/logo_transparent.png.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class=" header nav-item mt-2 mt-lg-0">
+                <a class="nav-link" href="#index">Home</a>
+              </li>
+              <li class="details nav-item">
+                <a class="nav-link" href="#details">About Us</a>
+              </li>
+              <li class="plotSamples nav-item">
+                <a class="nav-link" href="#plotSamples">Land samples</a>
+              </li>
+              <li class="FAQs nav-item">
+                <a class="nav-link" href="#FAQs">FAQs</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </section>
+  <section id="header">
+      <div class="container-fluid">
+        <h1 class="headings" data-aos="fade-up" data-aos-duration="1000">Welcome to <span>BorrowPlot</span></h1>
+          <div class="row headerRow">
+              <div class="col-lg-6 leftIntro" data-aos="fade-up" data-aos-duration="3000">
+                  <h1>Land renting platform to provide opportunities to <span>farmers</span>.</h1>
+                  <button class="gDownload btn btn-lg btn-dark"><i class="fa-brands fa-google-play"> </i> Download</button>
+                  <button class="aDownload btn btn-outline-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+                  <h3>Learn more about <u><span><a href="#details">BorrowPlot.</a></span></u></h3>
+              </div>
+              <div class="col-lg-6 rightIntro" data-aos="zoom-in" data-aos-duration="1000">
+                  <img class="phone" src="images/phone.png" alt="phone">
+              </div>
+          </div>
+      </div>
+  </section>
+      <section id="details">
+        <div class="container-fluid">
+          <h1 class="sectionHeading" data-aos="fade-up" data-aos-duration="2000">Why <span>BorrowPlot</span>?</h1>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 perks" data-aos="fade-down" data-aos-duration="2000">
+              <h1>100+</h1>
+              <p>Postings per month from different continents.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 perks" data-aos="fade-down" data-aos-duration="2000">
+              <h1>90+</h1>
+              <p>Countries are using BorrowPlot.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 perks" data-aos="fade-down" data-aos-duration="2000">
+              <h1>100%</h1>
+              <p>Safe and free to use with referral points system for farmers.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 perks" data-aos="fade-down" data-aos-duration="2000">
+              <i class="fa-regular fa-clock fa-4x"></i>
+              <p>Fast transaction and guaranteed scam-free.</p>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-6">
+              <div class="map" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                <img  src="images/world.png" alt="">
+                <span class="marker1"></span>
+                <span class="marker2"></span>
+                <span class="marker3"></span>
+                <span class="marker4"></span>
+                <span class="marker5"></span>
+                <span class="marker6"></span>
+                <span class="marker7"></span>
+              </div>
+            </div>
+            <div class="col-lg-6"  data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+              <p><span>BorrowPlot</span> has been frequently utilized in regions like as North America, South America, and Europe.
+                Australia, Asia, Europe, and Africa are all represented. Farmers have the opportunity to lease land from landowners through BorrowPlot.
+                and to sow the desired crops. This will enable all farmers who don't own farms to use their abilities to the fullest.
+                Provide them with the chance to earn a living through agriculture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+      </div>    
+      <section id="plotSamples">
+        <div class="container-fluid">
+          <h1 class="headingsBlack" data-aos="fade-up" data-aos-duration="2000">Featured <span>Lands</span></h1>
+          <p data-aos="fade-up" data-aos-duration="2000">choose the plot where you want to rent.</p>
+          <div class="row lots" data-aos="fade-up" data-aos-duration="1500">
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/australia.png" alt="" >
+                <div class="card-body">
+                  <h5>Bauhinia Downs QLD 4718</h5>
+                  <p>Country: <span>Australia</span></p>
+                  <p>Price: <span>3000$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/USA.png" alt="" >
+                <div class="card-body">
+                  <h6>North 2000 East Road, McLean County</h6>
+                  <p>Country: <span>USA</span></p>
+                  <p>Price: <span>3300$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/newzealand.png" alt="" >
+                <div class="card-body">
+                  <h5>1292 StateHighway 1, Tirau</h5>
+                  <p>Country: <span>New Zealand</span></p>
+                  <p>Price: <span>2900$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/germany.png" alt="" >
+                <div class="card-body">
+                  <h5>Newbourne, Woodbridge</h5>
+                  <p>Country: <span>United Kingdom</span></p>
+                  <p>Price: <span>5400$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/russia.png" alt="" >
+                <div class="card-body">
+                  <h5>Tver region, Likhoslavl district</h5>
+                  <p>Country: <span>Russia</span></p>
+                  <p>Price: <span>4200$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="images/philippines.png" alt="" >
+                <div class="card-body">
+                  <h5>Tiaong, Quezon</h5>
+                  <p>Country: <span>Philippines</span></p>
+                  <p>Price: <span>2500$/Month</span></p>
+                </div>
+                <button class="btn btn-outline-success btn-lg"><i class="fa-solid fa-circle-info"></i> Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wave2">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="wave-fill"></path>
+        </svg>
+    </div>
+      <section id="FAQs">
+        <div class="container-fluid">
+          <h1 class="sectionHeading" data-aos="fade-up" data-aos-duration="2000">Frequently asked <span>questions</span></h1>
+          <div class="questionBox" data-aos="fade-up" data-aos-duration="2500">
+            <div class="Questions" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <h1>How can I contact the owner of the farm that I want to rent?</h1>
+              <p>Download the app and login to <span>BorrowPlot</span> and view the details of posted land and you will
+              able to see the information about the owner.</p>
+            </div>
+            <div class="Questions" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <h1>What is the payment method for renting a land?</h1>
+              <p>You can only pay your monthly payment through credit card or Paypal to the app and the app will hold the 
+                payment if the contract is not signed yet by both parties, after settling the contract we will release the payment. </p>
+            </div>
+            <div class="Questions" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <h1>Who should I call for help if I experience problems?</h1>
+              <p>We have 24/7 customer support that will help you with your problem and answer your questions regarding on using the app.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="container-fluid">
+          <div class="links">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </div>
+          <p>Copyright © 2022: <span>Jericho Ferrer Villanueva</span></p>
+        </div>
+      </section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src = app.js></script>
+  </body>
+</html>
